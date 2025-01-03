@@ -104,7 +104,9 @@ const ProductsContent = () => {
       </div>
 
       {/* Pass sortedProducts and the handlePurchase function to the List component */}
-      <List products={sortedProducts} onPurchase={handlePurchase} />
+      <div className="products-list-wrapper">
+        <List products={sortedProducts} onPurchase={handlePurchase} />
+      </div>
     </section>
   );
 };
