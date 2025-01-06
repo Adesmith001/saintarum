@@ -10,7 +10,11 @@ const Footer = () => {
               <Logo /> <span>SAINT</span>AURUM
             </h6>
             <p>
-            Saintarum is a fashion brand offering luxurious, affordable clothing for the stylish and young-at-heart. Our designs are inspired by the latest trends and prioritize comfort, durability, and style. We provide a wide range of versatile clothing for any occasion.
+              Saintarum is a fashion brand offering luxurious, affordable
+              clothing for the stylish and young-at-heart. Our designs are
+              inspired by the latest trends and prioritize comfort, durability,
+              and style. We provide a wide range of versatile clothing for any
+              occasion.
             </p>
             <ul className="site-footer__social-networks">
               <li>
@@ -90,7 +94,10 @@ const Footer = () => {
 
       <div className="site-footer__bottom">
         <div className="container">
-          <p>Developed By <a href="https://somadetoluwani.vercel.app"> Toluwani Somade</a> - © 2025. ALL RIGHTS RESERVED.</p>
+          <p>
+            Developed·By{"·"}
+            <a href="https://somadetoluwani.vercel.app"> Toluwani Somade</a> ©2025 ALL RIGHTS RESERVED.
+          </p>
         </div>
       </div>
     </footer>
