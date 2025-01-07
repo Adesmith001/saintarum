@@ -95,8 +95,9 @@ const Footer = () => {
       <div className="site-footer__bottom">
         <div className="container">
           <p>
-            Developed·By{"·"}
-            <a href="https://somadetoluwani.vercel.app"> {"Toluwani Somade"} </a> ©2025 ALL RIGHTS RESERVED.
+            Developed By
+            <a href="https://somadetoluwani.vercel.app"> Toluwani Somade </a>
+            ©2025 ALL RIGHTS RESERVED.
           </p>
         </div>
       </div>

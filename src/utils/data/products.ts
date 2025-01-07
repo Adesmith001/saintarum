@@ -36,7 +36,7 @@ export const products = [
         },
       ],
     },
-   date: "2025-01-06",
+    date: "2025-01-06",
   },
   {
     id: "2",
@@ -74,7 +74,7 @@ export const products = [
         },
       ],
     },
-   date: "2025-01-05",
+    date: "2025-01-05",
   },
   {
     id: "3",
@@ -112,7 +112,7 @@ export const products = [
         },
       ],
     },
-   date: "2025-01-04",
+    date: "2025-01-04",
   },
   {
     id: "4",
@@ -150,7 +150,7 @@ export const products = [
         },
       ],
     },
-   date: "2025-01-03",
+    date: "2025-01-03",
   },
   {
     id: "5",
@@ -188,8 +188,7 @@ export const products = [
         },
       ],
     },
-   date: "2025-01-02",
-
+    date: "2025-01-02",
   },
   {
     id: "6",
@@ -228,7 +227,7 @@ export const products = [
         },
       ],
     },
-   date: "2025-01-01",
+    date: "2025-01-01",
   },
 ];
 

@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
@@ -18,7 +19,7 @@ const Header = ({ isErrorPage }: HeaderType) => {
   const arrayPaths = ["/"];
 
   const [onTop, setOnTop] = useState(
-    !(!arrayPaths.includes(router.pathname) || isErrorPage),
+    !(!arrayPaths.includes(router.pathname) || isErrorPage)
   );
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);

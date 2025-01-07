@@ -84,7 +84,8 @@ const ProductsFilter = () => {
 
         <button
           type="submit"
-          className="btn btn-submit btn--rounded btn--yellow">
+          className="btn btn-submit btn--rounded btn--yellow"
+        >
           Apply
         </button>
       </div>

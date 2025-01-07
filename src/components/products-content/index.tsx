@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import List from "./list";
 import productsTypes from "../../utils/data/products-types";
