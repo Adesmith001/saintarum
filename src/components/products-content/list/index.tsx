@@ -10,7 +10,7 @@ interface ProductsContentProps {
   onPurchase: (productId: string) => void;
 }
 
-const ProductsContent = ({ products}: ProductsContentProps) => {
+const ProductsContent = ({ products} : ProductsContentProps) => {
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
   const { data, error } = useSwr("/api/products", fetcher);
 
@@ -37,7 +37,6 @@ const ProductsContent = ({ products}: ProductsContentProps) => {
         </section>
       )}
     </>
-    
   );
 };
 

@@ -17,40 +17,40 @@ const ProductsContent = () => {
       prevProducts.map((product) =>
         (product as any).id === productId && (product as any).inStock > 0
         ? { ...product, inStock: (product as any).inStock - 1 }
-        : product
-      )
+        : product,
+      ),
     );
   };
 
   // Filter products based on stock status
   const filteredProducts = products.filter((product) =>
-    stockFilter === "In Stock" ? product.quantityAvailable > 0 : product.quantityAvailable === 0
+    stockFilter === "In Stock" ? product.quantityAvailable > 0 : product.quantityAvailable === 0,
   );
 
   // Sort products based on the selected option
   const sortedProducts = [...filteredProducts].sort((a, b) => {
     switch (sortOption) {
       case "Alphabetically (A-Z)":
-        return a.name.localeCompare(b.name);
+      return a.name.localeCompare(b.name);
       case "Alphabetically (Z-A)":
-        return b.name.localeCompare(a.name);
-        case "Price (high to low)":
-          return (b as any).price - (a as any).price;
-        case "Price (low to high)":
-          return (a as any).price - (b as any).price;
+      return b.name.localeCompare(a.name);
+      case "Price (high to low)":
+      return (b as any).price - (a as any).price;
+      case "Price (low to high)":
+      return (a as any).price - (b as any).price;
       case "Date (new to old)":
-        return new Date(b?.date).getTime() - new Date(a?.date).getTime();
+      return new Date(b?.date).getTime() - new Date(a?.date).getTime();
       case "Date (old to new)":
-        return new Date(a?.date).getTime() - new Date(b?.date).getTime();
+      return new Date(a?.date).getTime() - new Date(b?.date).getTime();
       default:
-        return 0; 
+      return 0; 
     }
   });
 
   // Calculate total products dynamically (your original code)
   const totalProducts = productsTypes.reduce(
     (total, type) => total + parseInt(type.count, 10),
-    0
+    0,
   );
 
   return (

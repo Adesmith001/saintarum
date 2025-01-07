@@ -96,7 +96,7 @@ const Footer = () => {
         <div className="container">
           <p>
             Developed·By{"·"}
-            <a href="https://somadetoluwani.vercel.app"> Toluwani Somade</a> ©2025 ALL RIGHTS RESERVED.
+            <a href="https://somadetoluwani.vercel.app"> {"Toluwani Somade"} </a> ©2025 ALL RIGHTS RESERVED.
           </p>
         </div>
       </div>
